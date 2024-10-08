@@ -1,8 +1,21 @@
-body{background-color: hsl(47, 88%, 63%) ;}
-.card.container {width:327;}
+*{font-family: Figtree;}
+
+    body{background-color: hsl(47, 88%, 63%);}
+
+.card.container {width:327;
+    background-color: #ffff;
+}
+
 .illustration{width:279;
 height:200}
+
 .content{display:flex;
 flex-direction: column;
 justify-content:space-between;
 align-items: start;}
+
+.learning, .date, .title{color:#111111;}
+
+.learning{background-color: hsl(47, 88%, 63%);
+
+}
