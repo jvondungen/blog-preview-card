@@ -1,21 +1,43 @@
-*{font-family: Figtree;}
 
-    body{background-color: hsl(47, 88%, 63%);}
 
-.card.container {width:327;
-    background-color: #ffff;
+body{font-family: Figtree;
+    background-color: hsl(47, 88%, 63%);
+    display:flex;
+    justify-content: center;
+    align-items: center;}
+
+.card-container {width:384px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px #111111;
 }
 
-.illustration{width:279;
-height:200}
+img{width: 336px;
+    height:200px;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 10px;}
+
+@media only screen and (max-width: 400px) 
+{img{width:279px;
+height:200px;}}
+
 
 .content{display:flex;
 flex-direction: column;
 justify-content:space-between;
 align-items: start;}
 
-.learning, .date, .title{color:#111111;}
+.category, .date, .title{color:#111111;
+}
+.description{color:#6b6b6b;}
 
-.learning{background-color: hsl(47, 88%, 63%);
+.category{background-color: hsl(47, 88%, 63%);
+    padding:10px;
+    border-radius: 10px;
+    font-size: 12px;
+font-weight: 500;
 
 }
+.attribution{align-items: center;}
