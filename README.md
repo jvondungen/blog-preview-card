@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://jvondungen.github.io/blog-preview-card/]
+- Solution URL: [https://github.com/jvondungen/blog-preview-card.git]
 - Live Site URL: [https://jvondungen.github.io/blog-preview-card/]
 
 ## My process
